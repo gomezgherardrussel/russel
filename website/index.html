@@ -1,0 +1,465 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>
+				Gherard russel gomez exam website
+		</title>
+	</head>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+  <script src="bootstrap-3.3.7-dist/jquery-3.3.1.min.js"></script>
+  <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+  
+<!--incase offline sya i open eto online link for bootstrap library  
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+-->
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<style>
+
+*{
+
+ padding: 0px;
+ margin:0px;
+}
+	ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #eebd40;
+
+
+
+
+  
+}
+
+li {
+      display: inline-block;
+
+}
+
+li a {
+    display: inline-block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+
+}
+
+li a:hover {
+    color:white;
+    text-decoration: none;
+    transition: 0.9s;
+	
+}
+
+
+.container{
+	margin-left:100px;
+}
+
+div.img {
+     margin: 5px;
+    border: 1px solid #ccc;
+     float: left;
+     width: 380px;
+	 
+
+ }
+
+div.img:hover {
+	opacity:0.9;
+	
+ }
+
+div.img img {
+     width: 100%;
+    height: auto;
+ }
+
+div.desc {
+    padding: 15px;
+     text-align: center;
+ }
+ 
+.mybanner{
+	
+	height: 400px;
+	max-width:100;
+	 background-image: url("banner.png");
+	 background-repeat: no-repeat;
+	   background-size: 100%;
+
+
+}
+.banner-text
+{
+	position: absolute;
+	margin-top: 100px;
+	border-left: solid 10px;
+
+	margin-left: 200px;
+	padding-left:20px;
+}
+.about{
+		height: 400px;
+		max-width: 100;
+		background-color:g;
+		margin-top: 20%;
+
+}
+
+
+
+.mov_pic1{
+	position: absolute;
+
+	}
+	.moving-text{
+		float: right;
+		margin-right: 15%;
+		margin-top: 10%;
+
+					}
+					.moving-text:hover{
+						 box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+						padding: 50px;
+
+						transition: 1s;
+					}
+	.disposal-text{
+		margin-left: 300px;
+		margin-top: 5%;
+
+	}
+
+					
+					.disposal-text:hover{
+						 box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+						padding: 10px;
+
+						transition: 1s;
+					}
+
+
+
+	.moving_disposal{
+		height: 400px;
+		max-width: 100;
+		margin-top: 10%;
+		margin-left: 30%;
+
+		
+
+
+	}
+
+.card {
+  transition: 0.3s;
+  width: 20%;
+  display: inline-block;
+
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  padding: 100px;
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.hehe{
+	height: 50px;
+	width: 200px;
+	position: absolute;
+	margin-top:-70px;
+	margin-left: 200px;
+	text-align: center;
+	padding-top:5px;
+	border-bottom: solid 5px;
+	border-color:#ccc;
+
+
+
+}
+
+.hehe:hover{
+	border-bottom: solid 5px;
+	border-color:orange;
+	 box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+
+}
+.haha{
+	height: 50px;
+	width: 200px;
+	position: absolute;
+	margin-left: 400px;
+	margin-top:-70px;
+	text-align: center;
+	padding-top:5px;
+	border-bottom: solid 5px;
+	border-color:#ccc;
+
+
+}
+
+.haha:hover{
+	border-bottom: solid 5px;
+	border-color:orange;
+	 box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+
+}
+.last_div{
+		height: 700px;
+		max-width: 100;
+		background-color:#ccc;
+		margin-top: 30%;
+
+}
+.form{
+	height: 600px;
+	width: 350px;
+	background-color: white;
+	float: right;
+	margin-right: 200px;
+	margin-top: 20px;
+	 box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	 padding-top: 30px;
+}
+.mymap{
+	position: absolute;
+	margin-left: 553px;
+	margin-top: 100px;
+
+}
+
+</style>
+<body> 
+	<center>
+		<ul><b>
+
+  <li><img src="logo.png" height="70"></li>
+  <li><a class="active" href="index.html">ABOUT US</a></li>
+  <li><a href="#">SERVICES</a></li>
+  <li><a href="#">GALLERY</a></li>
+  <li><a href="#">ABOUT</a></li>
+  <li><a href="#">CONTACT US</a></li>
+<li><button class="btn btn-danger"> <span class="glyphicon glyphicon-earphone"></span>&nbsp;&nbsp;or&nbsp;&nbsp; <span class="glyphicon glyphicon-phone-alt"></span>&nbsp;&nbsp; 93791983</button></li>
+</ul>
+<b>
+</center>
+<div class="mybanner"> 
+	<div class="banner-text">
+		<b><font size="11" color="#333">
+		AFFORDALBE AND
+		<br>RELIABLE MOVERS</font>
+	</b>
+		<br><font color="white" size="5"><b>OPEN 24 HOURS</b></font>
+		<br>
+		<button class="btn btn-danger btn-lg" style="width: 250px;">Enquire Now</button>
+	</div>
+	<div><!-- closing ng mybanner -->
+		<br>
+	
+	<div class="about">
+		<br>
+		<br>
+		<center>
+		<font color="#333" size="10"><b>ABOUT</b></font>
+		<br>Anteeksi ne ai hinnalla olisivat syotavaa pelastaa. Olivat jo tiedat menisi kuulit voivat on se paassa. Vei ole isa
+		<br> kummaa tee lienee matkan vuoksi. Ei liekiksi ja niinkuin varmasti kimpussa paivalla. Aiti ela nae aani alta tai 
+		 <br>etko ukki. Niinkaan et loydetty ei ei sylkaisi karahtaa kalastus. Iso oli saisit lailla kuinka tekisi isa.	
+	</div>
+	<center>
+
+<img src="circles.png" style="margin-top: -200px;">
+</center>
+
+	<br>
+		<div class="move_pic1"> </div>
+			<img src="pic1.png">
+			<div class="moving-text">
+				<font color="#333" size="12"><b>MOVING</b></font>
+				<br>
+		Anteeksi ne ai hinnalla olisivat syotavaa pelastaa. Olivat jo tiedat menisi kuulit voivat on se paassa. Vei ole isa
+		<br> kummaa tee lienee matkan vuoksi. Ei liekiksi ja niinkuin varmasti kimpussa paivalla. Aiti ela nae aani alta tai 
+		 <br>etko ukki. Niinkaan et loydetty ei ei sylkaisi karahtaa kalastus. Iso oli saisit lailla kuinka tekisi isa.	
+		<br>
+		<br>
+
+		<button class="btn btn-warning btn-lg" style="width: 250px;">Enquire Now</button>
+			</div>
+		<div class="disposal-text">
+			<font color="#333" size="12"><b>DISPOSAL</b></font>
+			<br>
+		Anteeksi ne ai hinnalla olisivat syotavaa pelastaa. Olivat jo tiedat menisi kuulit voivat on se paassa. Vei ole isa
+		<br> kummaa tee lienee matkan vuoksi. Ei liekiksi ja niinkuin varmasti kimpussa paivalla. Aiti ela nae aani alta tai 
+		 <br>etko ukki. Niinkaan et loydetty ei ei sylkaisi karahtaa kalastus. Iso oli saisit lailla kuinka tekisi isa.	
+		 <Br>
+		 <Br>
+		<button class="btn btn-warning btn-lg" style="width: 250px;">Enquire Now</button>
+
+
+		<img src="pic2.png" style="float: right; margin-top: -300px;">
+		</div>
+		<br>
+
+		<div class="moving_disposal">
+
+<div class="hehe">
+		<font size="5" color="#333">MOVING</font>
+</div>
+
+
+<div class="haha">
+		<font size="5" color="#333">DISPOSAL</font>
+</div>
+
+<!-- section 1 -->
+<div class="card">
+  <img src="pic3.png" alt="Avatar" style="width:100%">
+  <div class="container">
+   
+  </div>
+</div>
+
+
+
+<div class="card">
+  <img src="pic4.png" alt="Avatar" style="width:100%">
+  <div class="container">
+   
+  </div>
+</div>
+
+<div class="card">
+  <img src="pic5.png" alt="Avatar" style="width:100%">
+  <div class="container">
+   
+  </div>
+</div>
+
+<br>
+<br>
+
+<!-- section 2 -->
+<div class="card">
+  <img src="pic6.png" alt="Avatar" style="width:100%">
+  <div class="container">
+   
+  </div>
+</div>
+
+
+<div class="card">
+  <img src="pic7.png" alt="Avatar" style="width:100%">
+  <div class="container">
+   
+  </div>
+</div>
+
+<div class="card">
+  <img src="pic8.png" alt="Avatar" style="width:100%">
+  <div class="container">
+   
+  </div>
+</div>
+<br>
+<br>
+
+<!-- section 3 -->
+<div class="card">
+  <img src="pic9.png" alt="Avatar" style="width:100%">
+  <div class="container">
+   
+  </div>
+</div>
+
+
+<div class="card">
+  <img src="pic10.png" alt="Avatar" style="width:100%">
+  <div class="container">
+   
+  </div>
+</div>
+
+<div class="card">
+  <img src="pic11.png" alt="Avatar" style="width:100%">
+  <div class="container">
+   
+  </div>
+</div>
+<br>
+
+		</div><!-- closing moving disposal div -->
+		<br>
+
+		<div class="last_div">
+			<div class="form">
+				<center>
+				<font size="4" color="#333" >MAKE YOUR MOVING
+				<br>
+				REQUEST TODAY
+			</font>
+			<br>
+
+			<font size="2" color="#333" >Try us out by getting a free quote or call
+			<br>
+			<b>+65 9379 1983
+				<br>enquiry@gmail.com
+				<br>
+				<br>
+				</font>
+				<br>
+
+				<input type="text" placeholder="Name" class="form-control" style="width: 300px;margin-bottom: 10px; ">
+				<input type="text" placeholder="Contact Number" class="form-control" style="width: 300px;margin-bottom: 10px;  ">
+				<input type="text" placeholder="Email" class="form-control" style="width: 300px;margin-bottom: 10px;  ">
+				<textarea class="form-control" style="width: 300px;height:150px;margin-bottom: 10px;" placeholder="Message us"></textarea>
+
+				<button class="btn btn-success" style="width: 300px;">SUBMIT</button>
+
+
+			</center>
+
+			
+
+			</div><!-- closing ng form -->
+
+
+			<div class="mymap">
+					<img src="mapmap.png" height="400" width="800">
+			</div> 
+
+		</div> <!-- closing last div> -->
+
+			<div class="myfooter">
+				<center>
+				Copyright 2016 All Rights reserved.
+				</center>
+			</div>
+
+</body>
+</html>
+
+
+
+
+
+
